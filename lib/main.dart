@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_fancy_widgets_ui/widgets/avatarglow.dart';
+import 'package:flutter_fancy_widgets_ui/widgets/cubeswipe.dart';
 import 'package:flutter_fancy_widgets_ui/widgets/homepage.dart';
 import 'package:flutter_fancy_widgets_ui/widgets/liquidpullrefresh.dart';
 import 'package:flutter_fancy_widgets_ui/widgets/percenyindicator.dart';
@@ -18,6 +19,7 @@ class Myapp extends StatelessWidget {
         '/avatarglow': (context) => const avatarglowwidget(),
         '/lpull': (context) => const lpull(),
         '/percentindi': (context) => const perdentindi(),
+        '/cubeswipe': (context) => const cubeswipe()
       },
       debugShowCheckedModeBanner: false,
       title: 'fancy flutter widgets UI Learning',

@@ -14,7 +14,7 @@ class lpull extends StatelessWidget {
         backgroundColor: Colors.deepPurple[200],
         body: SafeArea(
           child: LiquidPullToRefresh(
-            animSpeedFactor: 2,
+            animSpeedFactor: 4,
             showChildOpacityTransition: false,
             height: 200,
             color: Colors.deepPurple,

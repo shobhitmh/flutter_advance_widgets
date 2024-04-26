@@ -69,6 +69,26 @@ class homepahe extends StatelessWidget {
                               MaterialStateProperty.all(Colors.amber),
                         )),
                   ],
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, '/cubeswipe');
+                        },
+                        child: Text(
+                          'Cube Swipe',
+                          style: TextStyle(color: Colors.black),
+                        ),
+                        style: ButtonStyle(
+                          backgroundColor:
+                              MaterialStateProperty.all(Colors.amber),
+                        )),
+                  ],
                 )
               ],
             ),
