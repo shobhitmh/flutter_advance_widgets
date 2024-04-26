@@ -89,6 +89,26 @@ class homepahe extends StatelessWidget {
                               MaterialStateProperty.all(Colors.amber),
                         )),
                   ],
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, '/pageindi');
+                        },
+                        child: Text(
+                          'Smooth Page Indicator',
+                          style: TextStyle(color: Colors.black),
+                        ),
+                        style: ButtonStyle(
+                          backgroundColor:
+                              MaterialStateProperty.all(Colors.amber),
+                        )),
+                  ],
                 )
               ],
             ),

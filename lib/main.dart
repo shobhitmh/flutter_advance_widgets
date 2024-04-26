@@ -3,6 +3,7 @@ import 'package:flutter_fancy_widgets_ui/widgets/avatarglow.dart';
 import 'package:flutter_fancy_widgets_ui/widgets/cubeswipe.dart';
 import 'package:flutter_fancy_widgets_ui/widgets/homepage.dart';
 import 'package:flutter_fancy_widgets_ui/widgets/liquidpullrefresh.dart';
+import 'package:flutter_fancy_widgets_ui/widgets/pageindicator.dart';
 import 'package:flutter_fancy_widgets_ui/widgets/percenyindicator.dart';
 
 void main() {
@@ -17,9 +18,10 @@ class Myapp extends StatelessWidget {
     return MaterialApp(
       routes: {
         '/avatarglow': (context) => const avatarglowwidget(),
-        '/lpull': (context) => const lpull(),
-        '/percentindi': (context) => const perdentindi(),
-        '/cubeswipe': (context) => const cubeswipe()
+        '/lpull': (context) => lpull(),
+        '/percentindi': (context) => perdentindi(),
+        '/cubeswipe': (context) => cubeswipe(),
+        '/pageindi': (context) => pageindi(),
       },
       debugShowCheckedModeBanner: false,
       title: 'fancy flutter widgets UI Learning',
