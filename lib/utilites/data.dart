@@ -1,0 +1,22 @@
+List<String> names = [
+  'John',
+  'Emma',
+  'Liam',
+  'Olivia',
+  'Noah',
+  'Ava',
+  'William',
+  'Isabella',
+  'James',
+  'Sophia',
+  'Benjamin',
+  'Mia',
+  'Lucas',
+  'Charlotte',
+  'Alexander',
+  'Amelia',
+  'Henry',
+  'Harper',
+  'Ethan',
+  'Evelyn'
+];

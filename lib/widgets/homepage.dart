@@ -109,6 +109,26 @@ class homepahe extends StatelessWidget {
                               MaterialStateProperty.all(Colors.amber),
                         )),
                   ],
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, '/Myslidedwid');
+                        },
+                        child: Text(
+                          'Slidable Widgets',
+                          style: TextStyle(color: Colors.black),
+                        ),
+                        style: ButtonStyle(
+                          backgroundColor:
+                              MaterialStateProperty.all(Colors.amber),
+                        )),
+                  ],
                 )
               ],
             ),

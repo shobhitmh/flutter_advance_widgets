@@ -5,6 +5,7 @@ import 'package:flutter_fancy_widgets_ui/widgets/homepage.dart';
 import 'package:flutter_fancy_widgets_ui/widgets/liquidpullrefresh.dart';
 import 'package:flutter_fancy_widgets_ui/widgets/pageindicator.dart';
 import 'package:flutter_fancy_widgets_ui/widgets/percenyindicator.dart';
+import 'package:flutter_fancy_widgets_ui/widgets/slidable_widget.dart';
 
 void main() {
   runApp(const Myapp());
@@ -22,6 +23,7 @@ class Myapp extends StatelessWidget {
         '/percentindi': (context) => perdentindi(),
         '/cubeswipe': (context) => cubeswipe(),
         '/pageindi': (context) => pageindi(),
+        '/Myslidedwid': (context) => Myslidedwid(),
       },
       debugShowCheckedModeBanner: false,
       title: 'fancy flutter widgets UI Learning',
