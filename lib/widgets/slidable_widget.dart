@@ -14,6 +14,7 @@ class Myslidedwid extends StatefulWidget {
 }
 
 class _MyslidedwidState extends State<Myslidedwid> {
+  TextEditingController _search = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -45,7 +46,27 @@ class _MyslidedwidState extends State<Myslidedwid> {
               ),
             ),
             SizedBox(
-              height: 20,
+              height: 10,
+            ),
+            Container(
+              height: 50,
+              width: MediaQuery.of(context).size.width / 1.1,
+              padding: EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                  color: Colors.grey[200],
+                  borderRadius: BorderRadius.circular(10)),
+              child: TextField(
+                controller: _search,
+                decoration: InputDecoration(
+                  icon: Icon(
+                    Icons.search,
+                    size: 34,
+                  ),
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 10,
             ),
             Expanded(
               child: Padding(
@@ -81,12 +102,14 @@ class _MyslidedwidState extends State<Myslidedwid> {
                       child: Padding(
                         padding: const EdgeInsets.symmetric(vertical: 8.0),
                         child: ListTile(
-                          leading: Icon(Icons.person),
+                          leading: Icon(
+                            Icons.person,
+                            size: 35,
+                          ),
                           title: Text(
                             names[index],
                             style: GoogleFonts.lato(
-                              textStyle: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
+                              textStyle: TextStyle(fontSize: 20),
                             ),
                           ),
                           subtitle: Text('+91 9171205081'),
