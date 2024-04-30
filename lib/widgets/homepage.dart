@@ -21,6 +21,8 @@ class homepahe extends StatelessWidget {
                           Navigator.pushNamed(context, '/avatarglow');
                         },
                         style: ButtonStyle(
+                          tapTargetSize: MaterialTapTargetSize.padded,
+                          overlayColor: MaterialStateProperty.all(Colors.white),
                           backgroundColor:
                               MaterialStateProperty.all(Colors.amber),
                         ),
@@ -41,6 +43,8 @@ class homepahe extends StatelessWidget {
                           Navigator.pushNamed(context, '/lpull');
                         },
                         style: ButtonStyle(
+                          tapTargetSize: MaterialTapTargetSize.padded,
+                          overlayColor: MaterialStateProperty.all(Colors.white),
                           backgroundColor:
                               MaterialStateProperty.all(Colors.amber),
                         ),
@@ -65,6 +69,8 @@ class homepahe extends StatelessWidget {
                           style: TextStyle(color: Colors.black),
                         ),
                         style: ButtonStyle(
+                          tapTargetSize: MaterialTapTargetSize.padded,
+                          overlayColor: MaterialStateProperty.all(Colors.white),
                           backgroundColor:
                               MaterialStateProperty.all(Colors.amber),
                         )),
@@ -85,6 +91,8 @@ class homepahe extends StatelessWidget {
                           style: TextStyle(color: Colors.black),
                         ),
                         style: ButtonStyle(
+                          tapTargetSize: MaterialTapTargetSize.padded,
+                          overlayColor: MaterialStateProperty.all(Colors.white),
                           backgroundColor:
                               MaterialStateProperty.all(Colors.amber),
                         )),
@@ -105,6 +113,8 @@ class homepahe extends StatelessWidget {
                           style: TextStyle(color: Colors.black),
                         ),
                         style: ButtonStyle(
+                          tapTargetSize: MaterialTapTargetSize.padded,
+                          overlayColor: MaterialStateProperty.all(Colors.white),
                           backgroundColor:
                               MaterialStateProperty.all(Colors.amber),
                         )),
@@ -125,6 +135,8 @@ class homepahe extends StatelessWidget {
                           style: TextStyle(color: Colors.black),
                         ),
                         style: ButtonStyle(
+                          tapTargetSize: MaterialTapTargetSize.padded,
+                          overlayColor: MaterialStateProperty.all(Colors.white),
                           backgroundColor:
                               MaterialStateProperty.all(Colors.amber),
                         )),
