@@ -141,6 +141,50 @@ class homepahe extends StatelessWidget {
                               MaterialStateProperty.all(Colors.amber),
                         )),
                   ],
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, '/heatmap');
+                        },
+                        child: Text(
+                          'Heat Map',
+                          style: TextStyle(color: Colors.black),
+                        ),
+                        style: ButtonStyle(
+                          tapTargetSize: MaterialTapTargetSize.padded,
+                          overlayColor: MaterialStateProperty.all(Colors.white),
+                          backgroundColor:
+                              MaterialStateProperty.all(Colors.amber),
+                        )),
+                  ],
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    TextButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, '/heatmapcalender');
+                        },
+                        child: Text(
+                          'Heat Map Calender',
+                          style: TextStyle(color: Colors.black),
+                        ),
+                        style: ButtonStyle(
+                          tapTargetSize: MaterialTapTargetSize.padded,
+                          overlayColor: MaterialStateProperty.all(Colors.white),
+                          backgroundColor:
+                              MaterialStateProperty.all(Colors.amber),
+                        )),
+                  ],
                 )
               ],
             ),

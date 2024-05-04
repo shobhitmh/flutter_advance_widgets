@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_fancy_widgets_ui/widgets/avatarglow.dart';
 import 'package:flutter_fancy_widgets_ui/widgets/cubeswipe.dart';
+import 'package:flutter_fancy_widgets_ui/widgets/eatmapcalender.dart';
+import 'package:flutter_fancy_widgets_ui/widgets/heatmap.dart';
 import 'package:flutter_fancy_widgets_ui/widgets/homepage.dart';
 import 'package:flutter_fancy_widgets_ui/widgets/liquidpullrefresh.dart';
 import 'package:flutter_fancy_widgets_ui/widgets/pageindicator.dart';
@@ -24,6 +26,8 @@ class Myapp extends StatelessWidget {
         '/cubeswipe': (context) => cubeswipe(),
         '/pageindi': (context) => pageindi(),
         '/Myslidedwid': (context) => Myslidedwid(),
+        '/heatmap': (context) => heatmap(),
+        '/heatmapcalender': (context) => calender(),
       },
       debugShowCheckedModeBanner: false,
       title: 'fancy flutter widgets UI Learning',
